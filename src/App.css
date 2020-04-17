@@ -1,0 +1,85 @@
+.pageTitle {
+  font-size: 35px;
+  text-align: center;
+  font-family: Comic Sans MS;
+  background-color: grey;
+}
+
+.containerApp {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  display: grid;  
+  grid-gap: 5px;  
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.linkCard {
+  text-decoration: none;
+  color: black;
+  font-family: Comic Sans MS;
+}
+
+.containerHome > div {  
+  width: 100%;  
+  height: 100%;  
+  object-fit: cover;  
+}
+
+
+.searchApp {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.searchTermApp {
+  padding: 10px;
+  font-size: 17px;
+  float: left; 
+  width: 96.5%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.searchTermApp:focus {
+  color: black;
+}
+
+.switchButtonActive {
+  width: 80px;
+  height: 40px;
+  font-family: Comic Sans MS;
+  border: none;
+  outline: none;
+  background-color: rgb(43, 41, 41);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.switchButton {
+  width: 80px;
+  height: 40px;
+  font-family: Comic Sans MS;
+  border: none;
+  outline: none;
+  background-color: rgb(224, 222, 222);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.switchButtonDiv {
+  margin-left: 15%;
+  margin-top: 5%;
+  float: inline-end;
+}
+
