@@ -1,4 +1,5 @@
-The movie database React-Typescript web application. 
--Usage:
-  -npm install
-  -npm start
+ReactJS application
+- Web application with TMDB API
+- Usage:
+  - npm install
+  - npm start 
