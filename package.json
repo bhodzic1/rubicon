@@ -1,5 +1,5 @@
 {
-  "name": "rubicon",
+  "name": "tmdb-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

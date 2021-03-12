@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from '../../App';
 
 import CardDetails from '../cardDetails/CardDetails';
+import MovieDetails from '../details/MovieDetails';
 
 
 const Router = () => {
@@ -10,7 +11,7 @@ const Router = () => {
     <BrowserRouter>
     <Switch>
       <Route path="/" component={ App } exact />
-      <Route path="/:type/details/:id" component={ CardDetails } />
+      <Route path="/:type/details/:id" component={ MovieDetails } />
     </Switch>
     </BrowserRouter>
     )

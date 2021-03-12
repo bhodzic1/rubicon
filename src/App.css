@@ -18,7 +18,8 @@
 .linkCard {
   text-decoration: none;
   color: black;
-  font-family: Comic Sans MS;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .containerHome > div {  

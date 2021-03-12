@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Router from './components/router/Router';
+import { MovieProvider } from './context/MovieContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <MovieProvider>
     <Router />
-  </React.StrictMode>,
+  </MovieProvider>
+  ,
   document.getElementById('root')
 );
 
